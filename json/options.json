@@ -1,0 +1,65 @@
+{
+    "all": {
+        "Delete": {
+            "icon": "<span class='text-danger'>",
+            "action": "delete"
+        },
+        "Padding": {
+            "icon": "<i class='bi bi-arrows-angle-contract'></i>",
+            "action": "changepadding",
+            "options": ["p-1", "p-2", "p-3", "p-4", "p-5"]
+        },
+        "Margin": {
+            "icon": "<i class='bi bi-arrows-angle-expand'></i>",
+            "action": "changemargin",
+            "options": ["m-1", "m-2", "m-3", "m-4", "m-5"]
+        },
+        "Width": {
+            "icon": "<i class='bi bi-rulers'></i>",
+            "action": "changewidth",
+            "options": ["w-0", "w-25", "w-50", "w-75"]
+        },
+        "Height": {
+            "icon": "<i class='bi bi-rulers'></i>",
+            "action": "changeheight",
+            "options": ["h-0", "h-25", "h-50", "h-75"]
+        },
+        "Text": {
+            "icon": "<i class='bi bi-cursor-text'></i>",
+            "action": "edittext"
+        }, 
+        "Color": {
+            "icon": "<i class='bi bi-brush'></i>",
+            "action": "changecolor",
+            "options": ["text-primary", "text-secondary", "text-success", "text-warning", "text-danger", "text-white"]
+        }, 
+        "Background Color": {
+            "icon": "<i class='bi bi-back'></i>",
+            "action": "changebgcolor",
+            "options": ["bg-primary", "bg-secondary", "bg-success", "bg-warning", "bg-danger", "bg-light"]
+        },
+        "Style": {
+            "icon": "<i class='bi bi-asterisk'></i>",
+            "action": "changestyle",
+            "options": ["fw-bold", "fw-light", "fst-normal", "fst-italic"]
+        },
+        "Move Up": {
+            "icon": "<i class='bi bi-arrow-up'></i>",
+            "action": "moveup"
+        },
+        "Move Down": {
+            "icon": "<i class='bi bi-arrow-down'></i>",
+            "action": "movedown"
+        }
+    },
+    "img": {
+        "Source": {
+            "icon": "<i class='bi bi-book'></i>",
+            "action": "addsource"
+        },
+        "Alternate": {
+            "icon": "<i class='bi bi-arrow-left-right'></i>",
+            "action": "addalternate"
+        }
+    }
+}

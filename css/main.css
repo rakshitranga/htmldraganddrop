@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+* {
+	font-family: 'Assistant', sans-serif;
+}
+
+html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.hidden,
+[hidden] {
+	display: none !important;
+}
+
+.sr-only {
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	/* 1 */
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	white-space: inherit;
+	width: auto;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: " ";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+@media only screen and (min-width: 35em) {
+	/* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {}
+
+@media print {
+
+	*,
+	*::before,
+	*::after {
+		background: #fff !important;
+		color: #000 !important;
+		/* Black prints faster */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a[href]::after {
+		content: " ("attr(href) ")";
+	}
+
+	abbr[title]::after {
+		content: " ("attr(title) ")";
+	}
+
+	a[href^="#"]::after,
+	a[href^="javascript:"]::after {
+		content: "";
+	}
+
+	pre {
+		white-space: pre-wrap !important;
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+
+	thead {
+		display: table-header-group;
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+}
+
+.main {
+	height: 100vh;
+}
+
+.bg-blue {
+	background-color: #363636;
+	color: white;
+}
+
+.border {
+	border: 5px solid black !important;
+}
+
+img[src=''] {
+	border: 1px dotted black;
+}
+
+#viewport {
+	padding: 10px;
+}
+
+#viewport *:not(li) {
+	display: block;
+}
+
+.drop {
+	padding: 0.5px 0;
+}
+
+.list-group-item {
+	cursor: pointer;
+}
+
+.modal-dialog {
+	/* position: fixed !important; */
+	/* position: absolute;
+	bottom: 5px;
+	right: 10px; */
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.modal-dialog *:not(input):not(select) {
+	border: none;
+}
+
+[contenteditable] {
+	outline: 1px solid dodgerblue;
+}
+code div {
+	font-family: inherit;
+}

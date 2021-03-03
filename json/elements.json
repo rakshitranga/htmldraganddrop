@@ -1,0 +1,72 @@
+{
+    "input": {
+        "icon": "<i class='bi bi-input-cursor-text'></i>",
+        "html": "<input class='form-control'></input>",
+        "name": "Input"
+    },
+    "password": {
+        "icon": "<i class='bi bi-key'></i>",
+        "html": "<input type='password' class='form-control'></input>",
+        "name": "Password Input"
+    },
+    "button": {
+        "icon": "<i class='bi bi-app'></i>",
+        "html": "<button class='btn btn-primary'>Button</button>",
+        "name": "Button"
+    },
+    "p": {
+        "icon": "<i class='bi bi-type'></i>",
+        "html": "<p>Text</p>",
+        "name": "Small Text"
+    },
+    "h1": {
+        "icon": "<i class='bi bi-type-h1'></i>",
+        "html": "<h1>Text</h1>",
+        "name": "Header 1"
+    },
+    "h2": {
+        "icon": "<i class='bi bi-type-h2'></i>",
+        "html": "<h2>Text</h2>",
+        "name": "Header 2"
+    },
+    "h3": {
+        "icon": "<i class='bi bi-type-h3'></i>",
+        "html": "<h3>Text</h3>",
+        "name": "Header 3"
+    },
+    "img": {
+        "icon": "<i class='bi bi-card-image'></i>",
+        "html": "<img src='' alt='Click here to edit the image.'></img>",
+        "name": "Image"
+    },
+    "code": {
+        "icon": "<i class='bi bi-code-slash'></i>",
+        "html": "<code>Code</code>",
+        "name": "Code Block"
+    },
+    "list": {
+        "icon": "<i class='bi bi-list-ul'></i>",
+        "html": "<ul><li>List 1</li><li>List 2</li></ul>",
+        "name": "List"
+    },
+    "video": {
+        "icon": "<i class='bi bi-camera-video'></i>",
+        "html": "<video controls></video>",
+        "name": "Video"
+    },
+    "geolocation": {
+        "icon": "<i class='bi bi-geo-alt'></i>",
+        "html": "TODO",
+        "name": "Geolocation"
+    },
+    "table": {
+        "icon": "<i class='bi bi-table'></i>",
+        "html": "<table class='table'></table>",
+        "name": "Table"
+    },
+    "select": {
+        "icon": "<i class='bi bi-check2-square'></i>",
+        "html": "<select class='form-select'><option selected>Select Box</option></select>",
+        "name": "Select"
+    }
+}
